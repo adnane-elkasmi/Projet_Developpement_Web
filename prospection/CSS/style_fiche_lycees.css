@@ -1,0 +1,33 @@
+body {
+	background-color: #F2F2F2;
+}
+
+article {
+	width: 60%;
+	margin-left: 20%;
+	background-color: white;
+	padding: 10px 10px 20px 10px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #F2F2F2;
+}
+
+#filiation {
+	width: 90%;
+}
+
+#information {
+	display: flex;
+	justify-content: space-betwwen;
+}
+
+hr {
+	height: 4px;
+	background-color: #0174DF;
+	margin-top: 0px;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}

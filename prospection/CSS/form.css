@@ -1,0 +1,58 @@
+.login, .registration, .edit, .addboutique, .editboutique, .addblog, .addpolice, .logout, .avertissement, .contact #page{
+    width: 400px;
+    margin: 13% auto;
+}
+
+form{
+    width: 100%;
+    padding: 50px;
+    border: 1px solid #222222;
+    background: lightgrey;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.22), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+form h1{
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+form input[type=text], form input[type=password], form input[type=email], form input[type=password], form input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+}
+
+.edit input[type=text]{
+    margin-bottom: 30px;
+}
+
+.login input[type=submit], .edit input[type=submit]{
+    background-color: #222222;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.registration input[type=submit], .registration input[type=reset]{
+    background-color: #222222;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 17px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+
+form input[type=submit]:hover, form input[type=reset]:hover, form a:hover{
+    background-color: darkgrey;
+    color: #222222;
+    border: 1px solid #222222;
+}

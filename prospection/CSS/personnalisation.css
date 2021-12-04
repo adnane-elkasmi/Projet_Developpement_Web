@@ -1,0 +1,19 @@
+body{
+	background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personnalisation h1{
+	font-size:30px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+.personnalisation span{
+	padding-bottom:70px;
+}

@@ -1,0 +1,24 @@
+#navigation_extraction {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	align-items: flex-end;
+}
+
+#analyse {
+	border: 1px solid black;
+	border-radius: 10px 10px 0px 0px;
+	width: 50%;
+	text-align: center;
+	box-shadow: 0px 2px 5px #D3D3D3;
+}
+
+#fichier {
+	border: 1px solid black;
+	border-radius: 10px 10px 0px 0px;
+	border-bottom: #D3D3D3;
+	width: 50%;
+	text-align: center;
+	background-color: #D3D3D3;
+	box-shadow: 0px 2px 5px #D3D3D3;
+}
